@@ -1,0 +1,195 @@
+@font-face{
+    font-family: helios;
+    src:url(fonts/Helios_Extended.otf) format('opentype');
+
+}
+
+
+* {
+    margin: 0px;
+    background-color: #fdfaf0 ;
+   
+}
+
+/** header **/
+
+.navbar {
+    height: 50px;
+    background-color:hsl(0, 0%, 70%);
+    font-family: helios;
+    color:#333a47;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+
+}
+
+.aboutme {
+    height: 30px;
+    width: 110px;
+    background-color: #fdfaf0;
+    border:1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills {
+    height: 30px;
+    width: 90px;
+    background-color: #fdfaf0;
+    border:1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.education {
+    height: 30px;
+    width: 120px;
+    background-color: #fdfaf0;
+    border:1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.experience {
+    height: 30px;
+    width: 125px;
+    background-color: #fdfaf0;
+    border:1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projects {
+    height: 30px;
+    width: 110px;
+    background-color: #fdfaf0;
+    border:1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.research {
+    height: 30px;
+    width: 110px;
+    background-color: #fdfaf0;
+    border:1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navborder {
+    height: 8.5px;
+    background-color:#333a47;
+    opacity: .78;
+}
+
+/** hero-section **/
+
+.hero-section {
+    
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.resumecontact {
+    height: 90px;
+    width: 120px;
+    font-family: helios;
+    font-size: 1.5vw;
+    margin-top: 15%;
+    
+}
+
+.resume {
+    height: 45px;
+    width: 120px;
+    margin-bottom: 15%;
+    background-color: #545e70;
+    color: black;
+    border: 1px solid transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.contact {
+    height: 45px;
+    width: 120px;
+    background-color: #a6a6a6;
+    color: black;
+    border: 1px solid transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.photo {
+    height: 360px;
+    display: flex;
+    margin-left: -60px;
+    
+}
+
+.socialmedia {
+
+    height:250px;
+    margin-top: 7%;
+    margin-right: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.socialmedia img {
+    height:50px;
+    width:auto;
+}
+
+/** Title name **/
+
+.title-name {
+    font-family: helios;
+    font-size:xx-large;
+    font-weight: lighter;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro {
+    font-family: helios;
+    font-size:large;
+    font-weight:100;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 20px 0px 20px;
+}
+
+
+
