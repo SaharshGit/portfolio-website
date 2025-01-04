@@ -1,195 +1,294 @@
 @font-face{
     font-family: helios;
     src:url(fonts/Helios_Extended.otf) format('opentype');
-
 }
 
 
 * {
     margin: 0px;
-    background-color: #fdfaf0 ;
-   
 }
 
-/** header **/
-
-.navbar {
-    height: 50px;
-    background-color:hsl(0, 0%, 70%);
-    font-family: helios;
-    color:#333a47;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
+body {
+    height: 100%;
+    width:100%;
+    background-image: url('images/background.png');
     
-
+    
 }
 
-.aboutme {
-    height: 30px;
-    width: 110px;
-    background-color: #fdfaf0;
-    border:1px solid transparent;
-    border-radius: 5px;
+.hero-section {
+    height: 90%;
+    width: 85%;
+    margin-left: 9vw;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+
+.upper-arrow {
+    height: 50vh;
+    width:80vw;
+    margin-right:7vw;
+    display: flex;
+    
+    font-family: helios;
+    font-size: large;
+    color: #333a47;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 1px rgba(65, 64, 64, 0.5);
+}
+
+.arrow1 {
+    width:40%;
+    background-image: url(images/a1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 70%;
+    margin-top: 20vh;
+    margin-left: 13vw;
+    position: relative;
+     
 }
 
 .skills {
-    height: 30px;
-    width: 90px;
-    background-color: #fdfaf0;
-    border:1px solid transparent;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    position: absolute;
+    margin: 5vh -4vw;
+    color: #333a47;
+    transition: color, transform, text-shadow;
 }
 
-.education {
-    height: 30px;
-    width: 120px;
-    background-color: #fdfaf0;
-    border:1px solid transparent;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.skills:hover {
+    text-shadow: 1px 1px 1px #e49458;
+    color:#e0701d;
+    transform: scale(1.1);
+    
+}
+
+.arrow2 {
+    width:30%;
+    background-image: url(images/a2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    margin-top: -9vh;
+    margin-right: -4vw;
+    position: relative;
+    
+}
+
+.aboutme {
+    position: absolute;
+    margin: 11vh 2vw;
+    transition: color, transform, text-shadow;
+    color: #333a47;
+}
+
+.aboutme:hover {
+    text-shadow: 1px 1px 1px #e49458;
+    color:#e0701d;
+    transform: scale(1.1);
+    
+}
+
+
+.arrow3 {
+    width:30%;
+    background-image: url(images/a3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin-top: 25vh;
+    margin-right: 17vw;
+    position: relative;
+
 }
 
 .experience {
-    height: 30px;
-    width: 125px;
-    background-color: #fdfaf0;
-    border:1px solid transparent;
-    border-radius: 5px;
+    position: absolute;
+    margin: 12vh 13vw;
+    transition: color, transform, text-shadow;
+}
+
+.experience:hover {
+    text-shadow: 1px 1px 1px #e49458;
+    color:#e0701d;
+    transform: scale(1.1);
+
+}
+
+
+.lower-arrow {
+    height: 50vh;
+    width:80vw;
+    margin-right:7vw;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-}
-
-.projects {
-    height: 30px;
-    width: 110px;
-    background-color: #fdfaf0;
-    border:1px solid transparent;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.research {
-    height: 30px;
-    width: 110px;
-    background-color: #fdfaf0;
-    border:1px solid transparent;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.navborder {
-    height: 8.5px;
-    background-color:#333a47;
-    opacity: .78;
-}
-
-/** hero-section **/
-
-.hero-section {
-    
-    height: 370px;
-    display: flex;
-    justify-content: space-between;
-    
-
-
-}
-
-.resumecontact {
-    height: 90px;
-    width: 120px;
     font-family: helios;
-    font-size: 1.5vw;
-    margin-top: 15%;
-    
+    font-size: large;
+    color: #333a47;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 1px rgba(65, 64, 64, 0.5);
 }
 
-.resume {
-    height: 45px;
-    width: 120px;
-    margin-bottom: 15%;
-    background-color: #545e70;
-    color: black;
-    border: 1px solid transparent;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-
+.arrow4 {
+    width:25%;
+    background-image: url(images/a4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    margin-top: -9vh;
+    margin-right: -5vw;
+    position: relative;
 }
 
-.contact {
-    height: 45px;
-    width: 120px;
-    background-color: #a6a6a6;
-    color: black;
-    border: 1px solid transparent;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
+.education {
+    position: absolute;
+    margin: 38vh -4vw;
+    transition: color, transform, text-shadow;
+}
+
+.education:hover {
+    text-shadow: 1px 1px 1px #e49458;
+    color:#e0701d;
+    transform: scale(1.1);
 }
 
 .photo {
-    height: 360px;
+    height: 60%;
     display: flex;
-    margin-left: -60px;
+    margin-top: -25vh ;
+    margin-right: 2vw;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.arrow5 {
+    width:25%;
+    background-image: url(images/a5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    margin-bottom: 19vh;
+    margin-right: 1vw;
+    position: relative;
+
+}
+
+.research {
+    position: absolute;
+    margin: 29vh 13vw;
+    transition: color, transform, text-shadow;
+}
+
+.research:hover {
+    text-shadow: 1px 1px 1px #e49458;
+    color:#e0701d;
+    transform: scale(1.1);
     
 }
 
 .socialmedia {
 
-    height:250px;
-    margin-top: 7%;
-    margin-right: 7px;
+    height:20vh;
+    width: 10vw;
+    margin-top: -49vh;
+    margin-left: 89vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-evenly;
+
+    
 }
 
 .socialmedia img {
-    height:50px;
-    width:auto;
+    margin-left: 50px;
+    margin-top: 5px;
+    height:65%;
+    width: auto;
+    
 }
 
-/** Title name **/
+.socialmedia a{
 
-.title-name {
-    font-family: helios;
-    font-size:xx-large;
-    font-weight: lighter;
-    margin-top: -15px;
+    height:65%;
+    width: auto;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
 }
 
-.intro {
-    font-family: helios;
-    font-size:large;
-    font-weight:100;
-    text-align: center;
-    line-height: 1.5;
-    margin: 20px 20px 0px 20px;
+.socialmedia a:hover img {
+    transform: scale(1.1);
 }
+
+.name {
+    font-family: "Ubuntu";
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 1px rgba(103, 101, 101, 0.5);
+    margin-top: -14vh;
+    margin-left: 37vw;
+    font-size: clamp(1rem, 5vw, 2rem);
+}
+
+.other-section {
+    height: 100vh;
+    width:100%;
+    margin-top: 20%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.ABOUTME {
+    font-size: clamp(1rem, 5vw, 2rem);
+    background-color: #e0701d;
+    box-shadow: 4px 4px 0px rgb(255, 192, 143);
+    padding: 0.7%;
+    font-family: "League Spartan";
+    font-weight: bolder;
+    color:antiquewhite;
+    letter-spacing: 1.5px;
+    text-shadow: 1.5px 1.5px 0px #e49458;
+}
+
+.text {
+    padding:3%;
+    font-family: "Duru Sans";
+    font-weight: lighter;
+    color: #231f20;
+    font-size: clamp(0.5rem, 2vw, 1.4rem);
+}
+
+.SKILLS {
+    margin-top: 10%;
+    font-size: clamp(1rem, 5vw, 2rem);
+    background-color: #e0701d;
+    box-shadow: 4px 4px 0px rgb(255, 192, 143);
+    padding: 0.7%;
+    font-family: "League Spartan";
+    font-weight: bolder;
+    color:antiquewhite;
+    letter-spacing: 1.5px;
+    text-shadow: 1.5px 1.5px 0px #e49458;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
