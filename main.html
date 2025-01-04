@@ -4,73 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=League+Spartan:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=League+Spartan:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="aboutme">
-                <p>ABOUT ME</p>
-            </div>
-
-            <div class="skills">
-                <p>SKILLS</p>
-            </div>
-
-            <div class="education">
-                <p>EDUCATION</p>
-            </div>
-
-            <div class="experience">
-                <p>EXPERIENCE</p>
-            </div>
-
-            <div class="projects">
-                <p>PROJECTS</p>
-            </div>
-
-            <div class="research">
-                <p>RESEARCH</p>
-            </div>
-
-
-
-        </div>
-        <div class="navborder"></div>
-    </header>
 
     <div class="hero-section">
-        <div class="resumecontact">
-            <div class="resume">
-                RESUME
+        <div class="upper-arrow">
+            <div class="arrow1">
+                <a href= #102><p class="skills">SKILLS</p></a>
+            </div>
+            
+            <div class="arrow2">
+                <a href= #101><p class="aboutme">ABOUT ME</p></a>
             </div>
 
-            <div class="contact">
-                CONTACT
+            <div class="arrow3">
+                <p class="experience">EXPERIENCE</p>
+            </div>
+        </div>
+
+        <div class="lower-arrow">
+            <div class="arrow4">
+                <p class="education">EDUCATION</p>
+            </div>
+            
+            <div class="photo">
+                <img src="images/hero-image.png"alt="photo">
             </div>
 
+            <div class="arrow5">
+                <p class="research">RESEARCH</p>
+            </div>
         </div>
+    </div>
 
-        <div class="photo">
-            <img src="images/hero-image.png"alt="photo">
-        </div>
+    <div class="name">SAHARSH GUPTA</div>
 
-        <div class="socialmedia">
+    <div class="socialmedia">
+        <a href="https://www.linkedin.com/in/saharsh-gupta-214721248" target="_blank">
             <img src="images/linkedin.png"alt="linkedin">
-            <img src="images/leetcode.png"alt="leetcode">
+        </a>
+        <a href="https://leetcode.com/u/w7lmXBWu7b/" target="_blank">
+           <img src="images/leetcode.png"alt="leetcode">
+        </a>
+        <a href="https://github.com/SaharshGit" target="_blank">
             <img src="images/github.png"alt="github">
-        </div>
-
+        </a>
     </div>
 
-    <div class="title-name">
-        SAHARSH GUPTA
-    </div>
-
-    <div class="intro">
-        <p>I am a pre-final year B.Tech student. Very excited and passionate to work in different fields of data and its applications. I am actively learning and implementing tools 
-            and technologies relevant in this field like Data analysis(PowerBI, Numpy, Pandas, SQL), Machine learning. </p>
-    </div>
+    <div class="other-section">
     
+        <div class="ABOUTME" id="101">
+            ABOUT ME
+        </div>
+        <br><br>
+        <p class="text">I am a pre-final year B.Tech student in Data Science at Vivekananda Institute of Professional Studies, GGSIPU. I am very excited and passionate to work in different fields of data and its applications. I am actively learning and implementing tools and technologies relevant in this field like Data analysis and visualization(PowerBI, Numpy, Pandas, Matplotlib, Seaborn, SQL), Web Scraping(BeautifulSoup, Praw), Machine learning.
+        <br><br>
+        Apart from these i have also learned basics of some web development tools like HTML, CSS, Streamlit, Flask and have implemented them in different projects. I also have basic knowledge of graphic designing.
+        <br><br>
+        Talking about academics my current CGPA is 8.3 . I am also interested in research work related to Artificial Intelligence & machine learning. I have published a research paper and working on some others.</p>
+        
+        <div class="SKILLS" id="102">
+            SKILLS
+        </div>
+        <br><br>
+        <p class="text">Languages:Python, Java, C 
+            <br><br>
+            Tools & Technologies:PowerBI, SQL, Pandas, Numpy, Matplotlib, Seaborn, scikit-learn,                    BeautifulSoup.
+            <br><br>
+             Relevant Fields:Data Analysis, Machine Learning, Data Management, Research</p>
+        
+
+    </div>
+</div>
+
 </body>
 </html>
