@@ -7,14 +7,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=League+Spartan:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&family=League+Spartan:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
 </head>
 <body>
 
-    <div class="hero-section">
+    <!-- for menu button in mobile devices -->
+    <div class="nav">
+
+    <div class="open-menu"><i class="fa-solid fa-bars"></i></div>
+    <a href="https://drive.google.com/file/d/1RWQ6k6ctEYBsFzzn9ryaT-7SZQDzEsUv/view?usp=drive_link" target="_blank"><p>RESUME</p></a>
+
+    </div>
+
+    <dialog class="menu">
+        <div class="close-menu"><i class="fa-solid fa-x"></i></div>
+        <p><a href = #100>ABOUT ME</a></p>
+        <p><a href = #102>SKILLS</a></p>
+        <p><a href = #103>EDUCATION</a></p>
+        <p><a href = #104>EXPERIENCE</a></p>
+        <p><a href = #105>PROJECTS</a></p>
+        <p><a href= #end>CONTACT</a> </p>
+        <p><a href="https://drive.google.com/file/d/1RWQ6k6ctEYBsFzzn9ryaT-7SZQDzEsUv/view?usp=drive_link" target="_blank">RESUME</a> </p>
+    </dialog>
+        
+    <!-- for menu button in mobile devices -->
+
+    <div id="100" class="hero-section">
+
 
         <div class="resumeContact">
+
             <a href="https://drive.google.com/file/d/1RWQ6k6ctEYBsFzzn9ryaT-7SZQDzEsUv/view?usp=drive_link" target="_blank"><p>RESUME</p></a>
             
             <p class="open-contact">CONTACT</p>
@@ -92,6 +116,7 @@
                     <li>JavaScript</li>
                     <li>HTML/CSS</li>
                     <li>Git</li>
+                    <br><br><br><br><br><br>
 
                 </ul>
             </div>
@@ -125,6 +150,7 @@
                 <ul>
                     <li>MySQL</li>
                     <li>PostgreSQL</li>
+                    <br><br><br><br><br><br><br>
                 </ul>
             </div>
         </div>
@@ -139,7 +165,8 @@
             <h2>Vivekananda Institute of Professional Studies, GGSIPU </h2>     
             <h2>(2022-2026)</h2>
             <br>
-            <pre>B.Tech in Data Science     (CGPA: 8.3/10)</pre>
+            <pre>B.Tech in Data Science</pre> 
+            <pre>(CGPA: 8.3/10)</pre>
             <br>
             <p>Relevant Coursework: Databases, Data analysis & visualization, Operating Systems, Computer Networks, Machine Learning, Data Mining, Object Oriented Programming, Discrete Maths, Data Structures and Algorithms.</p>
         </div>
@@ -147,7 +174,8 @@
             <h2>Kamal Model Sr. Sec. School</h2>       
             <h2>(2020-2022)</h2>
             <br>
-            <pre>CBSE - Grade-12        (Marks: 88.8%)</pre>
+            <pre>CBSE - Grade-12</pre>       
+            <pre>(Marks: 88.8%)</pre>
             <br>
             <p>Relevant Coursework: PCM, Computer Science(Python), SQL</p>
         </div>
@@ -158,7 +186,8 @@
     </div>
     <div class="EXPERIENCE-text">
         <div class="box">
-            <h2><pre>Data Analyst Intern    (June 2024- July 2024)</pre></h2>
+            <h2><pre>Data Analyst Intern</pre></h2>
+            <h2><pre>(June 2024- July 2024)</pre></h2>
             <br>
             <p>It was a project based internship were i got the opportunity to work on PowerBI, working on different types of Datasets creating dashboards & visualizations under the guidance of a mentor</p>
         </div>
@@ -232,6 +261,32 @@
         </div>
 
     </div>
+
+    <footer>
+        <h1 id="end">Connect with me</h1>
+        
+        <h2>Saharsh Gupta</h2>
+    
+        <p>saharshg895@gmail.com</p>
+        <p>+91 8700322524</p>
+        <p>Find my resume <a href="https://drive.google.com/file/d/1RWQ6k6ctEYBsFzzn9ryaT-7SZQDzEsUv/view?usp=drive_link" target="_blank">here</a></p>
+        
+        <div class="end-block">
+            <a href="https://www.linkedin.com/in/saharsh-gupta-214721248" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/SaharshGit" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://leetcode.com/u/w7lmXBWu7b/" target="_blank">
+                <i class="fa-solid fa-code"></i>
+            </a>
+
+            <p>designed by Saharsh</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
