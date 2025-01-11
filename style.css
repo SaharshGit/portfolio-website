@@ -7,7 +7,11 @@
 * {
     margin: 0;
     padding: 0;
+
+
 }
+
+
 
 html {
     scroll-behavior: smooth;
@@ -18,7 +22,8 @@ body {
     width:100%;
     background-image: url('images/background.png');
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    
 }
 
 body.no-scroll {
@@ -28,11 +33,19 @@ body.no-scroll {
 
 .hero-section {
     width: 100%;
-    height:auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
     
+}
+
+.nav {
+    display: none;
+}
+
+.open-menu {
+    display: none;
 }
 
 .resumeContact{
@@ -41,7 +54,6 @@ body.no-scroll {
     display: flex;
     flex-direction: column;
        
-
 }
 
 .resumeContact p {
@@ -128,6 +140,7 @@ body.no-scroll {
 }
 
 .photo img {
+    content: url(images/photo2.png);
     width: 63%;
     height: 70%;
     object-fit: cover;
@@ -213,7 +226,7 @@ body.no-scroll {
     text-shadow: 0.05rem 0.05rem 0rem rgba(103, 101, 101, 0.5);
     margin-top: 3%;
     margin-left: 0.6vw;
-    font-size: clamp(0.3rem, 3vw, 2rem);
+    font-size: clamp(1.7rem, 3vw, 2.3rem);
 
     display: flex;
     align-items: center;
@@ -231,7 +244,7 @@ body.no-scroll {
 }
 
 .ABOUTME {
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(2rem, 6vw, 2.3rem);
     background-color: #e0701d;
     box-shadow: 4px 4px 0px rgb(255, 192, 143);
     padding: 0.7%;
@@ -260,14 +273,14 @@ body.no-scroll {
     font-family: "Duru Sans";
     font-weight: lighter;
     color: #231f20;
-    font-size: clamp(0.5rem, 2vw, 1.2rem);
+    font-size: clamp(1.1rem, 4vw, 1.45rem);
     
     
 }
 
 .SKILLS {
     margin-top: 10%;
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(2rem, 6vw, 2.3rem);
     background-color: #e0701d;
     box-shadow: 4px 4px 0px rgb(255, 192, 143);
     padding: 0.7%;
@@ -279,19 +292,20 @@ body.no-scroll {
 }
 
 .SKILLS-text {
+
     color: #231f20;
-    margin-top:4%;
     width: 100%;
-    height: auto;
+    height: 60%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .SKILLS-text .box {
+
     width:25%;
-    min-height: 90%;
-    height: auto;
+    max-height: fit-content;
+ 
     background-color: rgba(232, 160, 52, 0.35);
     padding: 2.5%;
     border-radius: 4%;
@@ -305,7 +319,7 @@ body.no-scroll {
     text-align: center;
     font-family: League Spartan;
     font-weight: bolder;
-    font-size: clamp(1rem, 3vw, 1.7rem);
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
     padding: 3%;
     
 }
@@ -317,13 +331,13 @@ body.no-scroll {
 
 .SKILLS-text .box li {
     font-family: ubuntu;
-    font-size: clamp(0.62rem, 2vw, 1.2rem);;
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
 
 }
 
 .EDUCATION {
     margin-top: 10%;
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(2rem, 6vw, 2.3rem);
     background-color: #e0701d;
     box-shadow: 4px 4px 0px rgb(255, 192, 143);
     padding: 0.7%;
@@ -359,19 +373,19 @@ body.no-scroll {
 .EDUCATION-text .box h2,pre {
     width:80%;
     font-family: ubuntu;
-    font-size: clamp(0.7rem, 2vw, 1.2rem);
+    font-size: clamp(1.1rem, 4vw, 1.45rem);
     
 }
 
 .EDUCATION-text .box p {
     font-family: ubuntu;
-    font-size: clamp(0.63rem, 1.7vw, 1rem);
+    font-size: clamp(1rem, 3vw, 1.2rem);
     
 }
 
 .EXPERIENCE {
     margin-top: 20%;
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(2rem, 6vw, 2.3rem);
     background-color: #e0701d;
     box-shadow: 4px 4px 0px rgb(255, 192, 143);
     padding: 0.7%;
@@ -405,18 +419,18 @@ body.no-scroll {
 
 .EXPERIENCE-text .box pre {
     font-family: ubuntu;
-    font-size:  clamp(0.7rem, 2vw, 1.2rem);
+    font-size: clamp(1.1rem, 4vw, 1.45rem);
 }
 
 
 .EXPERIENCE-text .box p {
     font-family: ubuntu;
-    font-size: clamp(0.65rem, 1.7vw, 1rem);
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
 .PROJECTS {
     margin-top: 10%;
-    font-size: clamp(1rem, 5vw, 2rem);
+    font-size: clamp(2rem, 6vw, 2.3rem);
     background-color: #e0701d;
     box-shadow: 4px 4px 0px rgb(255, 192, 143);
     padding: 0.7%;
@@ -446,11 +460,11 @@ body.no-scroll {
     margin: 2%;
     width:22%;
     min-height: 30%;
-    height: auto;
+    
     background-color: rgba(232, 160, 52, 0.35);
     border-radius: 1.2vw;
     padding: 2%;
-    font-size:  clamp(0.5rem, 2vw, 1.2rem);
+    font-size:  clamp(1.1rem, 4vw, 1.45rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -582,6 +596,59 @@ body.no-scroll {
     align-items: center;
     justify-content: center;
     position: relative;
+      
+}
+
+footer {
+    margin-top: 10%;
+    width: 100vw;
+    height: 60vh;
+    background-color: rgba(232, 160, 52, 0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     
-   
+    
+}
+
+footer h1 {
+    margin-left:5%;
+    font-family: league spartan;
+    margin-bottom: 3%;
+}
+
+footer h2 {
+    margin-left: 5%;
+    font-family: ubuntu;
+    font-weight:400;
+    margin-bottom: 3%;
+}
+
+footer p {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    font-family: ubuntu;
+    margin: none;
+    
+}
+
+.end-block {
+    margin-top: 5%;
+    width: 100%;
+    height: 13%;
+    background-color: #e0701d;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3%;
+    
+}
+
+.end-block i {
+    margin-left: 7vw;
+    color: black;
+    font-size: xx-large;   
+}
+.end-block p {
+    margin-top: 0.5rem; 
 }

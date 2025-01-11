@@ -1,0 +1,164 @@
+
+
+
+
+
+@media (max-width: 800px){
+
+    .nav {
+        display:flex; 
+        justify-content: space-between;
+        width:100%;
+        position: sticky;
+        top: 0px;
+        z-index: 2;
+        background-color: rgb(239, 152, 21);
+        box-shadow: 2px 2px 4px rgba(46, 46, 46, 0.3);
+    }
+
+    .nav p {
+        color:antiquewhite;
+        font-family: ubutu;
+        font-weight: bold;
+        font-size: larger;
+        text-shadow: 0.05rem 0.05rem 0rem rgba(65, 64, 64, 0.5);
+        padding: 1rem;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .open-menu{
+        width:fit-content;
+        display:inline;        
+        font-size: xx-large;
+        color: antiquewhite;
+        padding: 0.5rem;  
+        
+        
+        
+
+      
+    }
+
+    .menu {
+        all: unset;
+        display: none;
+
+        height: 100vh;
+        width:50vw;
+        padding: 1rem;
+        font-family: league spartan;
+        font-size:x-large;
+        background-color: azure;
+        border: none;
+        outline: none;
+        z-index: 2;
+        box-shadow: 0.5rem 0.5rem 1rem rgba(46, 46, 46, 0.6);
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        
+       
+
+    }
+
+    .menu p {
+        padding-bottom: 3rem;
+        color: black;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+    .menu::backdrop {
+        background-color: rgba(72, 69, 69, 0.6);
+    
+    }
+
+    .close-menu {
+        width:fit-content;
+        display:flex;        
+        font-size: xx-large;
+        margin-bottom: 3rem;
+        
+    }
+    
+    .hero-section{
+        flex-direction: column;
+        height: 40vh;
+        margin-top: -7%;
+    }
+
+
+    .resumeContact p{
+        display: none;
+    }
+
+    .resumeContact {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+
+    .socialmedia{
+        display: none;
+    }
+
+    .photo {
+        max-width: 100%;
+        max-height: 35vh;
+    
+    }
+
+    .photo p{
+        display: none;
+    }
+
+    .photo img{
+        content: url(images/hero-image.png);
+        width:100%;
+        height: 100%;  
+    }
+
+    #name {
+        margin-top: 9% ;
+    }
+
+    .SKILLS-text {
+        flex-direction: column;
+        
+    }
+
+    .SKILLS-text .box br{
+        display: none;
+    }
+
+    .SKILLS-text .box {
+        margin: 5%;
+        width: 80vw;
+        max-height: fit-content;
+        
+    }
+
+    .EDUCATION-text {
+        gap: 5%
+    }
+
+    .PROJECTS-content{
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .PROJECTS-content .box {
+        width: 80%;
+        min-height: 10vh;
+    
+    }
+}
