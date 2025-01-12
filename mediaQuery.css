@@ -18,7 +18,7 @@
 
     .nav p {
         color:antiquewhite;
-        font-family: ubutu;
+        font-family: ubuntu;
         font-weight: bold;
         font-size: larger;
         text-shadow: 0.05rem 0.05rem 0rem rgba(65, 64, 64, 0.5);
@@ -160,5 +160,18 @@
         width: 80%;
         min-height: 10vh;
     
+    }
+
+    .PROJECTS-content .box img:hover {
+        transform: none;
+    
+    }   
+
+    .PROJECTS-content p:hover {
+        transform: none;
+    }
+
+    .top {
+        display: none;
     }
 }

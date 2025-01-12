@@ -233,6 +233,30 @@ body.no-scroll {
     justify-content: center;
 }
 
+.top {
+    height: auto;
+    width:1.6rem;
+   
+    font-size: x-large;
+    color: whitesmoke;
+    background-color:#e0701d;
+    padding:1rem;
+    border-radius: 50%;
+
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top {
+    margin-left:95%;
+    margin-top: 10vh;
+    text-decoration: none;
+    position: sticky;
+    top:85vh;
+}
 .other-section {
     height: auto;
     width:100%;
