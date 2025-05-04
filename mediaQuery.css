@@ -133,6 +133,11 @@
         padding-top: 7% ;
     }
 
+    .other-section {
+        margin: 40px, 0, 0
+    }
+
+
     .SKILLS-text {
         flex-direction: column;
         
